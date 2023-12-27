@@ -30,7 +30,7 @@ inport_name = mido.get_input_names()[0]
 # Define a mapping from MIDI notes to keyboard keys
 midi_to_key = {
     43: Key.f24,    # G3 or last drum pad on Arturia Minilab MKII
-    72: 'a'
+    72: 'a'         # C5 (I think?) to test a visible key ("a")
 }
 
 keyboard = Controller()
